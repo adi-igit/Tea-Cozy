@@ -7,4 +7,42 @@ html,
 body,
 :root {
   height: 100%;
+  font-family: Helvetica, sans-serif;
+}
+
+.bg-main {
+  height: 100%;
+  background-color: black;
+  color: seashell;
+  text-align: center;
+}
+
+a{
+  text-decoration: underline;
+  color: inherit;
+  font-size: 22px;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 69px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+  border-bottom: 1px solid seashell;
+}
+
+.logo {
+  height: 50px;
+  object-fit: cover;
+}
+
+.nav-ul{
+  display: flex;
+  list-style: none;
+  gap: 30px;
 }
