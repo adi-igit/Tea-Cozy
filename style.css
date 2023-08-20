@@ -13,6 +13,14 @@ body,
   text-align: center;
 }
 
+h2 {
+  font-size: 32px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
 a {
   text-decoration: underline;
   color: inherit;
@@ -58,17 +66,45 @@ a {
   align-items: center;
 }
 
-.hero-text{
+.hero-text {
   background-color: black;
   width: 100%;
   padding: 20px;
 }
 
-.hero-text h2{
-  font-size: 32px;
+.hero-text h4 {
+  margin-top: 15px;
 }
 
-.hero-text h4{
+.tea {
+  margin: 0 auto;
+  width: 1000px;
+  margin-top: 100px;
+}
+
+.tea h4 {
   margin-top: 15px;
-  font-size: 22px;
+}
+
+.tea-img-container {
+  margin-top: 20px;
+}
+
+.tea-img-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.tea-img-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.tea-img-wrapper img {
+  width: 300px;
+  height: 200px;
 }
