@@ -7,23 +7,20 @@ html,
 body,
 :root {
   height: 100%;
-  font-family: Helvetica, sans-serif;
-}
-
-.bg-main {
-  height: 100%;
   background-color: black;
+  font-family: Helvetica, sans-serif;
   color: seashell;
   text-align: center;
 }
 
-a{
+a {
   text-decoration: underline;
   color: inherit;
   font-size: 22px;
 }
 
-header{
+.header-container {
+  background-color: black;
   position: fixed;
   top: 0;
   left: 0;
@@ -41,8 +38,37 @@ header{
   object-fit: cover;
 }
 
-.nav-ul{
+.nav-ul {
   display: flex;
   list-style: none;
   gap: 30px;
+}
+
+.hero {
+  margin: 0 50px;
+  margin-top: 70px;
+  width: 1200px;
+  height: 700px;
+  background-image: url("images/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text{
+  background-color: black;
+  width: 100%;
+  padding: 20px;
+}
+
+.hero-text h2{
+  font-size: 32px;
+}
+
+.hero-text h4{
+  margin-top: 15px;
+  font-size: 22px;
 }
